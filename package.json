@@ -1,6 +1,6 @@
 {
   "name": "rustic-error",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Robust and type-safe error management inspired by Rust's Result pattern",
   "author": "Bluzzi",
   "license": "MIT",
