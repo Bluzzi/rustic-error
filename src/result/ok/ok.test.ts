@@ -1,7 +1,7 @@
 import { assert, describe, expect, it } from "vitest";
 import { ok } from "./ok.func";
 
-describe("ok function", () => {
+describe("ok", () => {
   it("should create a Result with ok status and correct value", () => {
     const result = ok<number, string>(42);
 

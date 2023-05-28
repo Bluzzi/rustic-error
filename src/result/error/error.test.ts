@@ -1,7 +1,7 @@
 import { assert, describe, expect, it } from "vitest";
 import { error } from "./error.func";
 
-describe("error function", () => {
+describe("error", () => {
   it("should create a Result with error status and correct error value", () => {
     const result = error<number, string>("Error message");
 
