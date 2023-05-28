@@ -1,0 +1,46 @@
+{
+  "name": "rustic-error",
+  "version": "0.0.1",
+  "description": "Robust and type-safe error management inspired by Rust's Result pattern",
+  "author": "Bluzzi",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --minify --format cjs,esm --dts",
+    "test": "vitest --ui",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "ts:check": "tsc --noEmit"
+  },
+  "homepage": "https://github.com/Bluzzi/rustic-error#readme",
+  "bugs": {
+    "url": "https://github.com/Bluzzi/rustic-error/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluzzi/rustic-error.git"
+  },
+  "devDependencies": {
+    "@bluzzi/eslint-config": "^1.1.0",
+    "@types/node": "^20.1.4",
+    "@vitest/ui": "^0.31.0",
+    "eslint": "^8.40.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  },
+  "eslintConfig": {
+    "extends": "@bluzzi"
+  },
+  "tsup": {
+    "clean": true
+  },
+  "keywords": [
+    "rust",
+    "result",
+    "error",
+    "throw"
+  ]
+}
