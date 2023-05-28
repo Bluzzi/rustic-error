@@ -1,5 +1,5 @@
 import { assert, describe, expect, it } from "vitest";
-import { error } from "../result.func";
+import { error } from "./error.func";
 
 describe("error function", () => {
   it("should create a Result with error status and correct error value", () => {

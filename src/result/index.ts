@@ -1,2 +1,3 @@
-export * from "./result.func";
-export * from "./result.type";
+export * from "./ok";
+export * from "./error";
+export * from "./resultify";
